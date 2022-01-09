@@ -61,6 +61,7 @@ preload: false
 
 <div class="flex flex-row">
 <div class="flex-1">
+<owner-chart />
 </div>
 <div class="flex-1">
 
@@ -98,6 +99,7 @@ preload: false
 
 <div class="flex flex-row">
 <div class="flex-1">
+<merchant-chart />
 </div>
 <div class="flex-1">
 
