@@ -12,7 +12,7 @@
     "echarts": "^5.2.2",
     "vue-echarts": "^6.0.0"
   },
-  "name": "word-report",
+  "name": "work-report",
   "devDependencies": {
   }
 }

@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: default
+theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
@@ -33,21 +33,41 @@ drawings:
 
 
 ---
+layout: two-cols
+---
 
-# 目录
+<div class="directory flex flex-col justify-center items-center h-full text-[70px] ">
+
+<span class="leading-[70px]">目</span>
+<br>
+<br>
+<span class="leading-[70px]">录</span>
+
+</div>
+
+
+::right::
+
+
+<div class="flex flex-col justify-center items-start h-full text-[29px]">
 
 - 📝 **工作说明**
 - 🎨 **进步**
 - 🧑‍💻 **经验总结**
-- 🤹 **明年的安排**
+- 🤹 **明年计划**
 
-<br>
-<br>
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+</div>
+
+
+
+<style>
+
+  .directory{
+    color: var(--slidev-theme-primary);
+  }
+
+</style>
 
 
 
@@ -66,7 +86,6 @@ preload: false
 <div class="flex-1">
 
 
-
 ### 物业缴费
 <br>
 
@@ -83,6 +102,7 @@ preload: false
 - 二手房、租房列表
 - 房源详情
 - 楼盘详情
+
 
 
 </div>
@@ -179,7 +199,7 @@ preload: false
 
 
 
-<div class="flex-1">
+<div class="flex-1" v-click>
 
 ### V2
 
@@ -199,7 +219,7 @@ preload: false
 </div>
 
 
-<div class="flex-1">
+<div class="flex-1" v-click>
 
 ### V3
 
@@ -248,8 +268,9 @@ preload: false
   - 会去了解一些面试题，对自己而言也是一种复习
   - 刚开始与候选人沟通时间把控不好，学会取舍
 
+<!--
 
-
+-->
 
 ---
 
@@ -283,7 +304,16 @@ preload: false
 
 # 经验总结
 
-- 开发过程中，沟通很重要，开发前充分确认需求。要考虑到代码的可扩展行，当需求变更的时候，能够比较好的兼容情况
+
+- 沟通的重要性
+
+- 代码注释
+
+- 组件的管理
+
+- 代码测试
+
+<!-- - 开发过程中，沟通很重要，开发前充分确认需求。要考虑到代码的可扩展行，当需求变更的时候，能够比较好的兼容情况
 
 - 代码注释不多，虽然自己写着很爽，但是也要考虑他人。后续会把注释慢慢写上
 
@@ -291,6 +321,11 @@ preload: false
 - 虽然抽取了一些组件，但是现在分开的，且不是同步的，不能很好管理。等项目稳定下来，会考虑把一些积累的组件抽取成公共库，提升开发效率
 
 - 代码测试这一块不太注重，有时候会出现修改一个需求或者修复一个bug，其他地方也出现了 bug。后续考虑写一些测试，提交代码的时候跑一下
+
+ -->
+
+
+
 
 ---
 
@@ -311,6 +346,3 @@ layout: cover
 # 谢谢大家
 
 为物业开源节流，提升业主服务质量
-
-
-
