@@ -1,11 +1,9 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# 年度述职
 
-To start the slide show:
+> [live地址](https://sujianqingfeng.github.io/work-report)
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
 
-Edit the [slides.md](./slides.md) to see the changes
+- `pnpm install`
+- `pnpm dev`
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+
