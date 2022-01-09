@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "slidev build --base /word-report",
+    "build": "slidev build --base /work-report",
     "dev": "slidev --open",
     "export": "slidev export"
   },
