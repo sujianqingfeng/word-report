@@ -262,7 +262,7 @@ preload: false
 
 - 对公司现有业务的熟悉，以及了解未来产品的规划
 - 熟悉 UniApp 开发流程
-- Vue3 hook 更加熟练
+- Vue3 Hook 更加熟练
 - Git 提交规范
 
 - 第一次当面试官
@@ -287,9 +287,9 @@ preload: false
   - <<重构>> 看了 1/3
   - <<代码整洁之道>> 买了还没有看
 
-- [Mini-Vue3](https://github.com/sujianqingfeng/my-mini-vue)，一行一行代码去敲，去理解 vue3 里面的一些实现
+- [Mini-Vue3](https://github.com/sujianqingfeng/my-mini-vue)，一行一行代码去敲，去理解 Vue3 里面的一些实现
 
-- 尝试 vue3 写一个[模板](https://github.com/sujianqingfeng/vue-admin-new)，为后续 SAAS 升级提供支撑
+- 尝试 Vue3 写一个[模板](https://github.com/sujianqingfeng/vue-admin-new)，为后续 SAAS 升级提供支撑
 <br>
 <br>
 
@@ -340,7 +340,7 @@ preload: false
 
 ---
 
-# 明年的安排
+# 明年计划
 
 - 持续迭代产品，考虑升级 Vue3
 - 引入代码测试
