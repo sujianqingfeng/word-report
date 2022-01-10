@@ -48,7 +48,7 @@ export default defineComponent({
           center: ["50%", "60%"],
           data: [
             { value: 7, name: "贺聂双" },
-            { value: 2, name: "刘胜" },
+            { value: 3, name: "刘胜" },
           ],
           emphasis: {
             itemStyle: {

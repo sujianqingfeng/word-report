@@ -1,24 +1,17 @@
 ---
-# try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: "text-center"
-# https://sli.dev/custom/highlighters.html
+class: text-center
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
+title: 年终述职
 ---
 
 # 年终述职
@@ -31,6 +24,9 @@ drawings:
   </span>
 </div>
 
+<!--
+备注
+-->
 
 ---
 layout: two-cols
@@ -69,7 +65,9 @@ layout: two-cols
 
 </style>
 
+<!--
 
+-->
 
 ---
 preload: false
@@ -159,9 +157,9 @@ preload: false
 </div>
 </div>
 
+<!--
 
-
-
+-->
 
 ---
 
@@ -264,33 +262,42 @@ preload: false
 
 - 对公司现有业务的熟悉，以及了解未来产品的规划
 - 熟悉 UniApp 开发流程
-- Vue3 hook 更加熟练
+- Vue3 Hook 更加熟练
 - Git 提交规范
 
 - 第一次当面试官
-  - 老实说，刚开始有些紧张，有些准备的题都忘了,心理素质有所提升
+
+  - 心理素质有所提升
   - 会去了解一些面试题，对自己而言也是一种复习
   - 刚开始与候选人沟通时间把控不好，学会取舍
 
 <!--
-
+  - 老实说，刚开始有些紧张，有些准备的题都忘了，心理素质有所提升
 -->
 
 ---
 
-# 进度
+# 进步
 
 作为一个技术人员，沉淀自己，总结自我真的是一件很必要的事情
 
-- 红宝书看了 1/3，重构看了 1/3，代码整洁之道买了还没有看
+- 看书
 
-- [Mini-Vue3](https://github.com/sujianqingfeng/my-mini-vue)，一行一行代码去敲，去理解 vue3 里面的一些实现
-- 尝试 vue3 写一个[模板](https://github.com/sujianqingfeng/vue-admin-new)，为后续 SAAS 升级提供支撑
+  - <<红宝书>> 看了 1/3
+  - <<重构>> 看了 1/3
+  - <<代码整洁之道>> 买了还没有看
+
+- [Mini-Vue3](https://github.com/sujianqingfeng/my-mini-vue)，一行一行代码去敲，去理解 Vue3 里面的一些实现
+
+- 尝试 Vue3 写一个[模板](https://github.com/sujianqingfeng/vue-admin-new)，为后续 SAAS 升级提供支撑
 <br>
 <br>
-<br>
+
+<v-click>
 
 ![Local Image](/github.com_sujianqingfeng.png)
+
+</v-click>
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/sujianqingfeng" target="_blank" alt="GitHub"
@@ -333,7 +340,7 @@ preload: false
 
 ---
 
-# 明年的安排
+# 明年计划
 
 - 持续迭代产品，考虑升级 Vue3
 - 引入代码测试
