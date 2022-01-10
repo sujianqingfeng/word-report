@@ -13,5 +13,12 @@
     "radial-progress-vue3": "^0.0.3",
     "vue-echarts": "^6.0.0"
   },
-  "name": "work-report"
+  "name": "work-report",
+  "devDependencies": {
+    "@iconify-json/clarity": "^1.0.1",
+    "@iconify-json/dashicons": "^1.0.1",
+    "@iconify-json/file-icons": "^1.0.1",
+    "@iconify-json/icon-park-outline": "^1.0.2",
+    "@iconify-json/vaadin": "^1.0.1"
+  }
 }

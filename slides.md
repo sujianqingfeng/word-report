@@ -24,6 +24,11 @@ title: 年终述职
   </span>
 </div>
 
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
 <!--
 备注
 -->
@@ -47,14 +52,18 @@ layout: two-cols
 
 <div class="flex flex-col justify-center items-start h-full text-[29px]">
 
-- 📝 **工作说明**
-- 🎨 **进步**
+- 📝 **工作回顾**
+- 🎨 **学习成长**
 - 🧑‍💻 **经验总结**
 - 🤹 **明年计划**
 
 
 </div>
 
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
 
 
 <style>
@@ -69,11 +78,31 @@ layout: two-cols
 
 -->
 
+
+
+---
+layout: cover
+---
+
+# 工作回顾
+
+
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
+<!--
+- 按产品需求和 UI 设计进行编码实现以及维护
+- 解决开发过程中的技术难题
+- 对一些组件进行一些封装
+-->
+
 ---
 preload: false
 ---
 
-# 工作说明
+# 工作回顾
 
 项目(江湾荟)
 
@@ -91,7 +120,7 @@ preload: false
 <br>
 
 - 欠缴
-- 预缴
+- 优惠预缴
 - 缴费记录
 
 <br>
@@ -100,8 +129,9 @@ preload: false
 ### 房屋租售
 <br>
 
+- 搜索过滤
 - 二手房、租房列表
-- 房源详情
+- 二手房、租房房源详情、配套设施
 - 楼盘详情
 
 
@@ -110,20 +140,33 @@ preload: false
 </div>
 </div>
 
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
+<!--
+物业缴费中的欠缴已上线，其他的虽然开发完成，但是没有正式上线
+
+
+-->
+
 ---
 preload: false
 ---
 
-# 工作说明
+# 工作回顾
 
 项目(江湾荟)
 
 
-<div class="flex flex-row">
-<div class="flex-1">
-<merchant-chart />
+<div class="flex flex-row h-[80%]">
+<div class="flex-1 flex flex-col justify-center items-center">
+<merchant-progress />
 </div>
-<div class="flex-1">
+<div class="flex-1 flex flex-col justify-center items-start">
+
+<v-click>
 
 
 ### 店铺管理
@@ -151,10 +194,16 @@ preload: false
 - 现金、豌豆提现 
 - 提现记录
 - 银行卡管理
+- 数据报表
 
-
+</v-click>
 
 </div>
+</div>
+
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
 </div>
 
 <!--
@@ -163,14 +212,17 @@ preload: false
 
 ---
 
-# 工作说明
+# 工作回顾
 
-产品后台管理
+产品后台管理/2021.10
 
 
 <div class="flex flex-row">
 
 <div class="flex-1">
+
+
+<v-click>
 
 ### V1
 
@@ -186,6 +238,7 @@ preload: false
 
 #### 系统管理
 
+- 系统字典
 - 员工管理
 - 角色管理
 - 组织架构
@@ -196,6 +249,9 @@ preload: false
 
 - SAAS创建集团 （版本管理）
 - 集团创建公司（公司管理）
+
+</v-click>
+
 
 </div>
 
@@ -254,11 +310,43 @@ preload: false
 </div>
 
 
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
+<!--
+大致可以分为三个阶段
+
+- 一阶段：主要是一些基本数据的构建，以及租户管理
+- 二阶段：财务系统，权限
+- 三阶段：应用中心、联调小程序
+
+#
+-->
+
+
+---
+layout: cover
+
 ---
 
-# 进步
+
+# 学习成长
+
+
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
+---
+
+# 学习成长
 
 从工作上来说
+
+<v-clicks>
 
 - 对公司现有业务的熟悉，以及了解未来产品的规划
 - 熟悉 UniApp 开发流程
@@ -271,15 +359,29 @@ preload: false
   - 会去了解一些面试题，对自己而言也是一种复习
   - 刚开始与候选人沟通时间把控不好，学会取舍
 
+</v-clicks>
+
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
 <!--
-  - 老实说，刚开始有些紧张，有些准备的题都忘了，心理素质有所提升
+1. UniApp 开发流程，之前没有接触过，但是有 vue 的经验，上手挺快。
+2. vue3 hook 更加熟练，虽然后台使用的是 vue2 的版本，但是采用 composition api 开发，为后续快速升级 vue3 减少了阻碍。
+3. git 提交规范，虽然之前有过了解，但是没有怎么很好的实践下来。
+
+- 老实说，刚开始有些紧张，有些准备的题都忘了，心理素质有所提升
 -->
 
 ---
 
-# 进步
+# 学习成长
+
 
 作为一个技术人员，沉淀自己，总结自我真的是一件很必要的事情
+
+<v-clicks>
 
 - 看书
 
@@ -290,6 +392,9 @@ preload: false
 - [Mini-Vue3](https://github.com/sujianqingfeng/my-mini-vue)，一行一行代码去敲，去理解 Vue3 里面的一些实现
 
 - 尝试 Vue3 写一个[模板](https://github.com/sujianqingfeng/vue-admin-new)，为后续 SAAS 升级提供支撑
+
+</v-clicks>
+
 <br>
 <br>
 
@@ -307,24 +412,85 @@ preload: false
 </div>
 
 
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
+
 <!-- 之所以有这个打算，是因为在开发 SAAS 的过程中，开发体验有时候比较难受 -->
 
 
+
+
+---
+layout: cover
 
 ---
 
 # 经验总结
 
 
-- 沟通的重要性
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
 
-- 代码注释
+---
 
-- 组件的管理
+# 经验总结
 
-- 代码测试
 
-<!-- - 开发过程中，沟通很重要，开发前充分确认需求。要考虑到代码的可扩展行，当需求变更的时候，能够比较好的兼容情况
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<div class="list grid grid-cols-4 gap-8">
+<div class="item py-20 text-center border-1" v-click >
+  <div class="header">
+    <clarity-talk-bubbles-solid class="text-[50px]" />
+  </div>
+  <div class="content p-8  text-[36px]">沟通</div>
+
+</div>
+
+<div class="item py-20 text-center border-1" v-click>
+  <div class="header">
+    <vaadin-code class="text-[50px]" />
+  </div>
+  <div class="content p-8  text-[36px]">注释</div>
+</div>
+
+
+<div class="item py-20 text-center border-1" v-click>
+  <div class="header">
+    <icon-park-outline-components class="text-[50px]" />
+  </div>
+  <div class="content p-8  text-[36px]">组件管理</div>
+</div>
+
+
+<div class="item py-20 text-center border-1" v-click>
+  <div class="header">
+    <file-icons-testcafe class="text-[50px]" />
+  </div>
+  <div class="content p-8  text-[36px]">测试</div>
+</div>
+</div>
+
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
+
+<!--
+- 开发过程中，沟通很重要，开发前充分确认需求。
+1.  分析可行性，提前发现问题，降低成本
+2.  coding过程中，需求越详细，考虑越多，代码扩展性会高一些，当需求变更的时候，能够比较好的兼容情况
 
 - 代码注释不多，虽然自己写着很爽，但是也要考虑他人。后续会把注释慢慢写上
 
@@ -332,15 +498,26 @@ preload: false
 - 虽然抽取了一些组件，但是现在分开的，且不是同步的，不能很好管理。等项目稳定下来，会考虑把一些积累的组件抽取成公共库，提升开发效率
 
 - 代码测试这一块不太注重，有时候会出现修改一个需求或者修复一个bug，其他地方也出现了 bug。后续考虑写一些测试，提交代码的时候跑一下
+-->
 
- -->
+---
+layout: cover
+
+---
+
+# 明年计划
 
 
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
 
 
 ---
 
 # 明年计划
+
+<v-clicks>
 
 - 持续迭代产品，考虑升级 Vue3
 - 引入代码测试
@@ -349,6 +526,11 @@ preload: false
 - Vue3 深入学习
 - Neovim 的尝试
 
+</v-clicks>
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>
 
 ---
 layout: cover
@@ -357,3 +539,8 @@ layout: cover
 # 谢谢大家
 
 为物业开源节流，提升业主服务质量
+
+
+<div class="abs-tr m-6 flex gap-2 text-[#ccc]">
+ Smart Space
+</div>

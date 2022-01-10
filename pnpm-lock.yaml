@@ -1,10 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@iconify-json/clarity': ^1.0.1
+  '@iconify-json/dashicons': ^1.0.1
+  '@iconify-json/file-icons': ^1.0.1
+  '@iconify-json/icon-park-outline': ^1.0.2
+  '@iconify-json/vaadin': ^1.0.1
   '@slidev/cli': ^0.27.20
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
-  easy-circular-progress: ^1.0.4
   echarts: ^5.2.2
   radial-progress-vue3: ^0.0.3
   vue-echarts: ^6.0.0
@@ -13,10 +17,16 @@ dependencies:
   '@slidev/cli': 0.27.20
   '@slidev/theme-default': 0.21.1
   '@slidev/theme-seriph': 0.21.1
-  easy-circular-progress: 1.0.4
   echarts: 5.2.2
   radial-progress-vue3: 0.0.3
   vue-echarts: 6.0.0_echarts@5.2.2
+
+devDependencies:
+  '@iconify-json/clarity': 1.0.1
+  '@iconify-json/dashicons': 1.0.1
+  '@iconify-json/file-icons': 1.0.1
+  '@iconify-json/icon-park-outline': 1.0.2
+  '@iconify-json/vaadin': 1.0.1
 
 packages:
 
@@ -55,15 +65,44 @@ packages:
       '@iconify/types': 1.0.12
     dev: false
 
+  /@iconify-json/clarity/1.0.1:
+    resolution: {integrity: sha1-GVobcuLAV2DDK57YLcDluIlreh0=, tarball: '@iconify-json/clarity/download/@iconify-json/clarity-1.0.1.tgz'}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
+  /@iconify-json/dashicons/1.0.1:
+    resolution: {integrity: sha1-wA9Yzdr96f620lUMFk2Qf+8yEBc=, tarball: '@iconify-json/dashicons/download/@iconify-json/dashicons-1.0.1.tgz'}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
+  /@iconify-json/file-icons/1.0.1:
+    resolution: {integrity: sha1-8RoBlaa0hC4uOCeAwpoQ5YGebuo=, tarball: '@iconify-json/file-icons/download/@iconify-json/file-icons-1.0.1.tgz'}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
+  /@iconify-json/icon-park-outline/1.0.2:
+    resolution: {integrity: sha512-2g+TAqeP2mXR6oaQehFHYwbqXQMT23ksWRD3Ez9q4xpvGUSU++UR7d6Hxaj9F9QG4H31OZLnNmTeSsfPEmeHPw==, tarball: '@iconify-json/icon-park-outline/download/@iconify-json/icon-park-outline-1.0.2.tgz'}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
   /@iconify-json/ph/1.0.4:
     resolution: {integrity: sha512-hcxC2k25/Lh/bgXgbwAD4WvnC8BeunSqafFwIOyL1dCu3QGBgKmPFIBUv4W2kBm+rbrv7F3WHPFBAJDVrjpunA==, tarball: '@iconify-json/ph/download/@iconify-json/ph-1.0.4.tgz'}
     dependencies:
       '@iconify/types': 1.0.12
     dev: false
 
+  /@iconify-json/vaadin/1.0.1:
+    resolution: {integrity: sha1-Ccl5r8RWvy8S1ddUo/8GJAA+mVI=, tarball: '@iconify-json/vaadin/download/@iconify-json/vaadin-1.0.1.tgz'}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
   /@iconify/types/1.0.12:
     resolution: {integrity: sha512-6er6wSGF3hgc1JEZqiGpg21CTCjHBYOUwqLmb2Idzkjiw6ogalGP0ZMLVutCzah+0WB4yP+Zd2oVPN8jvJ+Ftg==, tarball: '@iconify/types/download/@iconify/types-1.0.12.tgz'}
-    dev: false
 
   /@iconify/utils/1.0.20:
     resolution: {integrity: sha512-J5IriR8KeANs8vIEFKWzOlOvNgZHkwqkmqaIwvqtuDbBeFHtXGfM/LYMDmjtRJ0AAa7f254qw6TK7gAibYfHUA==, tarball: '@iconify/utils/download/@iconify/utils-1.0.20.tgz'}
@@ -588,11 +627,6 @@ packages:
       finalhandler: 1.1.2
       parseurl: 1.3.3
       utils-merge: 1.0.1
-    dev: false
-
-  /core-js/3.20.2:
-    resolution: {integrity: sha512-nuqhq11DcOAbFBV4zCbKeGbKQsUDRqTX0oqx7AttUBuqe3h20ixsE039QHelbL6P4h+9kytVqyEtyZ6gsiwEYw==, tarball: core-js/download/core-js-3.20.2.tgz}
-    requiresBuild: true
     dev: false
 
   /cross-spawn/7.0.3:
@@ -1126,13 +1160,6 @@ packages:
     resolution: {integrity: sha1-p/Komf4uHAONwp2DBIjIDXYZs8k=, tarball: drauu/download/drauu-0.2.1.tgz}
     dependencies:
       '@drauu/core': 0.2.1
-    dev: false
-
-  /easy-circular-progress/1.0.4:
-    resolution: {integrity: sha1-hVANAUjuXO2SQe0AY9uMAkq5qcw=, tarball: easy-circular-progress/download/easy-circular-progress-1.0.4.tgz}
-    dependencies:
-      core-js: 3.20.2
-      vue: 2.6.14
     dev: false
 
   /echarts/5.2.2:
@@ -2398,10 +2425,6 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.0.0-beta.21.1
       vue: 3.2.26
-    dev: false
-
-  /vue/2.6.14:
-    resolution: {integrity: sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==, tarball: vue/download/vue-2.6.14.tgz}
     dev: false
 
   /vue/3.2.26:
