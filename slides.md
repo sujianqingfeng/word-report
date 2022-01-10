@@ -79,12 +79,15 @@ preload: false
 
 项目(江湾荟)
 
-<div class="flex flex-row">
-<div class="flex-1">
-<owner-chart />
-</div>
-<div class="flex-1">
+<div class="flex flex-row h-[80%]">
+<div class="flex-1 flex flex-col justify-center items-center">
+<!-- <owner-chart /> -->
 
+<owner-progress />
+</div>
+<div class="flex-1 flex flex-col justify-center items-start">
+
+<v-click>
 
 ### 物业缴费
 <br>
@@ -104,6 +107,7 @@ preload: false
 - 楼盘详情
 
 
+</v-click>
 
 </div>
 </div>

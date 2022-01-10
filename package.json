@@ -10,9 +10,8 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "echarts": "^5.2.2",
+    "radial-progress-vue3": "^0.0.3",
     "vue-echarts": "^6.0.0"
   },
-  "name": "work-report",
-  "devDependencies": {
-  }
+  "name": "work-report"
 }

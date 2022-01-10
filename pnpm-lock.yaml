@@ -4,14 +4,18 @@ specifiers:
   '@slidev/cli': ^0.27.20
   '@slidev/theme-default': '*'
   '@slidev/theme-seriph': '*'
+  easy-circular-progress: ^1.0.4
   echarts: ^5.2.2
+  radial-progress-vue3: ^0.0.3
   vue-echarts: ^6.0.0
 
 dependencies:
   '@slidev/cli': 0.27.20
   '@slidev/theme-default': 0.21.1
   '@slidev/theme-seriph': 0.21.1
+  easy-circular-progress: 1.0.4
   echarts: 5.2.2
+  radial-progress-vue3: 0.0.3
   vue-echarts: 6.0.0_echarts@5.2.2
 
 packages:
@@ -586,6 +590,11 @@ packages:
       utils-merge: 1.0.1
     dev: false
 
+  /core-js/3.20.2:
+    resolution: {integrity: sha512-nuqhq11DcOAbFBV4zCbKeGbKQsUDRqTX0oqx7AttUBuqe3h20ixsE039QHelbL6P4h+9kytVqyEtyZ6gsiwEYw==, tarball: core-js/download/core-js-3.20.2.tgz}
+    requiresBuild: true
+    dev: false
+
   /cross-spawn/7.0.3:
     resolution: {integrity: sha1-9zqFudXUHQRVUcF34ogtSshXKKY=, tarball: cross-spawn/download/cross-spawn-7.0.3.tgz}
     engines: {node: '>= 8'}
@@ -1117,6 +1126,13 @@ packages:
     resolution: {integrity: sha1-p/Komf4uHAONwp2DBIjIDXYZs8k=, tarball: drauu/download/drauu-0.2.1.tgz}
     dependencies:
       '@drauu/core': 0.2.1
+    dev: false
+
+  /easy-circular-progress/1.0.4:
+    resolution: {integrity: sha1-hVANAUjuXO2SQe0AY9uMAkq5qcw=, tarball: easy-circular-progress/download/easy-circular-progress-1.0.4.tgz}
+    dependencies:
+      core-js: 3.20.2
+      vue: 2.6.14
     dev: false
 
   /echarts/5.2.2:
@@ -1936,6 +1952,13 @@ packages:
     resolution: {integrity: sha1-SSkii7xyTfrEPg77BYyve2z7YkM=, tarball: queue-microtask/download/queue-microtask-1.2.3.tgz}
     dev: false
 
+  /radial-progress-vue3/0.0.3:
+    resolution: {integrity: sha512-pvx1dAxgI2fTmPafD1p+hVw2hTiUVNP/uN7LgN9ncY4afVEBJWRUzR9PMRNzxcN6xCDMlKfs9UJtXY7lnjDX1g==, tarball: radial-progress-vue3/download/radial-progress-vue3-0.0.3.tgz}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vue: ^3.0.5
+    dev: false
+
   /readdirp/3.6.0:
     resolution: {integrity: sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=, tarball: readdirp/download/readdirp-3.6.0.tgz}
     engines: {node: '>=8.10.0'}
@@ -2375,6 +2398,10 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.0.0-beta.21.1
       vue: 3.2.26
+    dev: false
+
+  /vue/2.6.14:
+    resolution: {integrity: sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==, tarball: vue/download/vue-2.6.14.tgz}
     dev: false
 
   /vue/3.2.26:
